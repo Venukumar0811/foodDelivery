@@ -7,7 +7,7 @@ const StoreContextProvider = (props) =>{
 
   const [cartItems,setCartItems] = useState({});
 
-  const url = 'https://pumatobackend.onrender.com';
+  const url = 'https://fooddelivery-backend-zk68.onrender.com';
   const [token,setToken] = useState("");
   const [food_list,setFoodlist]  = useState([])
 
